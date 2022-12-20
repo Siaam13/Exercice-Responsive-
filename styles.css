@@ -5,7 +5,71 @@
 }
 
 nav {
+background: #ffffff;
+display: flex;
+/* position: relative;
+z-index: 0; */
+justify-content: space-between;
+align-items: center;
+padding: 25px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+    font-family:'Montserrat', sans-serif;
+    margin-left: 10%;
+}
+
+.link a {
+    margin: 0;
+    color: white;
+    padding: 5px;
+    font-size: 3vh;
+    position: relative;
+    top: 1%;
+}
+
+.menu {
+    width: 10%;
     display: flex;
-    padding: 30px;
-    background-color: blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.menu span {
+    background: rgb(0, 0, 0);
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px;
+    
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 500vh;
+    position: absolute;
+    flex-direction: column;
+    background: #3d3f44;
+    top: 0px;
+    left: -400px;
+    padding: 10px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.open {
+    left: 0px;
+    top: 0px;
+}
+
+.first {
+    background-image:url(./img/Image\ site\ responsive1.jpg);
+    background-position: 50% 50%;
 }
