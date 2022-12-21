@@ -1,0 +1,221 @@
+
+body {
+    min-height: 270vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    }
+
+
+
+.Service {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
+    color: #2E2F33;
+}
+
+.Pepe {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #808080;
+    line-height: 1.6;
+
+}
+
+.BREND {
+
+   
+    display: flex;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: repeat(auto-fill,minmax(20%, 4fr));
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 9%;
+
+}
+
+.UN {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content:space-around;
+  }
+    
+    
+
+.ROND {
+    display: flex;
+    justify-content:flex-end;
+    fill: white;
+    inline-size: 15%;
+    background-color: rgb(56, 210, 217);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 7%;
+}
+
+.branding {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    color: #2e2f33;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    margin-top: 10%;
+}
+
+.lore {
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+    color: #808080;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+
+
+.BUTTON {
+   color:#2e2f33 ;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 2px;
+   font-size: 0.875rem;
+   line-height: 1.4;
+   text-transform: uppercase;
+   font-weight: 600;
+   border: solid 1px rgb(56, 210, 217);
+   padding: 1% ;
+}
+
+.LEARN {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.PARTIE {
+    
+    margin-top: 5%;
+}
+
+.DEUXPARTIES {
+    display: flex;
+    background-color: #F2F2F2;
+    
+    
+    border: blue solid 2px;
+}
+
+.PARTIEGA {
+    display: flex;
+    flex-direction:column;
+    /* border: red solid 1px; */
+    margin-left: 6%;
+    margin-block-end: 5%;
+    margin-right: 4%;
+    margin-block-start: 5%;
+    background-color: #F2F2F2;
+}
+
+.PARTIEDR {
+    display:flex;
+    border: green solid 1px;
+    
+}
+
+.PHOTO {
+    display: flex;
+    inline-size: 700px;
+    height: 600px;
+}
+
+.BUTTONde {
+    display: flex;
+    justify-content: center;
+    color: white ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", "Arial","sans-serif";
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #38D2D9;
+    margin-top: 5%;
+    padding: 3% ;
+    inline-size: 30%;
+    
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.WE {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color :#2e2f33;
+}
+
+.enim {
+display: flex;
+font-family:'Open Sans', sans-serif;
+line-height: 1.6;
+font-size: 1rem;
+font-weight: bold;
+color: #2e2f33;
+}
+
+.duis {
+    font-family: 'Open Sans',sans-serif;
+    color: #2e2f33;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+    
+}
+
+.banniere {
+    border: #38D2D9 solid 2px;
+    display:flex;
+
+}
+
+.Getto {
+    border: yellow solid 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.BUTROIS {
+    border: purple solid 2px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
