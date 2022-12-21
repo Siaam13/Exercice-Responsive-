@@ -76,7 +76,7 @@ body {
     color: #2e2f33;
     line-height: 1.2;
     font-size: 1.25rem;
-    margin-top: 10%;
+    margin-top: 30px;
 }
 
 .lore {
@@ -103,11 +103,11 @@ body {
    text-transform: uppercase;
    font-weight: 600;
    border: solid 1px rgb(56, 210, 217);
-   padding: 1% ;
+   padding: 10px 25px ;
 }
 
 .LEARN {
-    margin-top: 7%;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -118,14 +118,18 @@ body {
 }
 
 .DEUXPARTIES {
+    
     display: flex;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     }
  
 .PARTIEGA {
+    
     display: flex;
     flex-direction:column;
-    
+    flex: 1 1 350px;
+    justify-content: start;
     margin-left: 6%;
     margin-block-end: 5%;
     margin-right: 4%;
@@ -134,14 +138,27 @@ body {
 }
 
 .PARTIEDR {
+    
+    flex: 1 1 450px;
     display:flex;
+    block-size: auto;
+    background-image: url(./41683.jpg);
+    background-repeat:no-repeat;
+    
+    background-size:cover;
+    
+
+    
+    
     
 }
 
 .PHOTO {
     display: flex;
+    flex: 1 1 450px;
     inline-size: 700px;
     height: 600px;
+    overflow: hidden;
 }
 
 .BUTTONde {
@@ -159,7 +176,7 @@ body {
     background-color: #38D2D9;
     margin-top: 5%;
     padding: 3% ;
-    inline-size: 30%;
+    inline-size: 150px;
     
     text-align: center;
     border-radius: 50px;
@@ -199,7 +216,7 @@ color: #2e2f33;
 .banniere {
     
     display:flex;
-    justify-content: space-between;
+    justify-content: baseline;
     background-color: #38D2D9;
     height: 200px;
 
@@ -207,9 +224,11 @@ color: #2e2f33;
 
 .Getto {
     
+    
     display:flex;
     flex-direction: column;
-    margin-left: 12%;
+    margin-right: 10rem;
+    margin-left:  10rem;
     justify-content: center;
     
    
@@ -219,8 +238,8 @@ color: #2e2f33;
 .BUTROIS {
     
     display: flex;
-    margin-right: 14%;
-    align-items: center;
+    
+    align-items:center;
 }
 
 .Know {
@@ -240,13 +259,14 @@ color: #2e2f33;
     font-size: 1rem;
     line-height: 1.6;
     color:white;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 
 .BUTTONTroi {
     font-family: 'Open Sans',sans-serif;
     display: flex;
-    justify-content: center;
+    align-items: center;
+   
     color: #38D2D9; ;
     text-decoration: none;
     text-transform: uppercase;
@@ -328,4 +348,123 @@ footer {
     margin-top: 75px;
     text-align: center;
     font-family: 'Open Sans',sans-serif;
+}
+
+
+
+
+@media (max-width: 1100px) {
+    .DEUXPARTIES {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 800px){
+    .banniere {
+    
+        display:flex;
+        flex-direction: column;
+        background-color: #38D2D9;
+        height: 400px;
+    
+    }
+
+    .BUTROIS {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+        
+    }
+}
+
+@media (max-width: 1015px){
+    .banniere {
+    
+        display:flex;
+        flex-direction: column;
+        background-color: #38D2D9;
+        height: 300px; }
+
+    .BUTROIS {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+                 
+        }
+        
+    
+     }
+
+
+@media (max-width: 530px){
+    .banniere {
+    
+        display:flex;
+        flex-direction: column;
+        background-color: #38D2D9;
+        height: 320px;
+    
+    } }
+
+@media (max-width: 1205px){
+    .Getto {
+    
+        
+        display:flex;
+        flex-direction: column;
+        margin-right: 8rem;
+        margin-left:  8rem;
+        justify-content: center;
+        
+       
+    
+    }
+
+}
+
+@media (max-width: 1150px){
+    .Getto {
+    
+        
+        display:flex;
+        flex-direction: column;
+        margin-right: 6rem;
+        margin-left:  6rem;
+        justify-content: center;
+        
+       
+    
+    }
+
+}
+
+@media (max-width: 1080px){
+    .Getto {
+    
+        
+        display:flex;
+        flex-direction: column;
+        margin-right: 4rem;
+        margin-left:  4rem;
+        justify-content: center;
+        
+       
+    
+    }
+
+}
+
+@media (max-width: 800px){
+    .BREND {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Pepe {
+        text-align: center;
+    }
 }
