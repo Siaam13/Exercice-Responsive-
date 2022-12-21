@@ -59,14 +59,14 @@ body {
     display: flex;
     justify-content:flex-end;
     fill: white;
-    inline-size: 15%;
+    inline-size: 40px;
     background-color: rgb(56, 210, 217);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    padding: 7%;
+    padding: 22px;
 }
 
 .branding {
@@ -120,15 +120,12 @@ body {
 .DEUXPARTIES {
     display: flex;
     background-color: #F2F2F2;
-    
-    
-    border: blue solid 2px;
-}
-
+    }
+ 
 .PARTIEGA {
     display: flex;
     flex-direction:column;
-    /* border: red solid 1px; */
+    
     margin-left: 6%;
     margin-block-end: 5%;
     margin-right: 4%;
@@ -138,7 +135,6 @@ body {
 
 .PARTIEDR {
     display:flex;
-    border: green solid 1px;
     
 }
 
@@ -191,6 +187,7 @@ color: #2e2f33;
 }
 
 .duis {
+    display: flex;
     font-family: 'Open Sans',sans-serif;
     color: #2e2f33;
     font-weight: 400;
@@ -200,22 +197,135 @@ color: #2e2f33;
 }
 
 .banniere {
-    border: #38D2D9 solid 2px;
+    
     display:flex;
+    justify-content: space-between;
+    background-color: #38D2D9;
+    height: 200px;
 
 }
 
 .Getto {
-    border: yellow solid 2px;
+    
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-left: 12%;
+    justify-content: center;
+    
+   
 
 }
 
 .BUTROIS {
-    border: purple solid 2px;
+    
     display: flex;
-    justify-content:end;
+    margin-right: 14%;
     align-items: center;
+}
+
+.Know {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.Sample {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color:white;
+    margin-bottom: 5%;
+}
+
+.BUTTONTroi {
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #38D2D9; ;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px; }
+
+.marketing {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: #2e2f33;
+}
+
+.ullam {
+    font-family: 'Open Sans',sans-serif;
+    color: #2e2f33;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.VIEW {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 80px;
+
+}
+
+.Viewb {
+    
+    color: #ffffff ;
+    background-color: #000000 ;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+    
+    background-color: #000000 ;
+    height: 150px;
+}
+
+.footext {
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    margin-top: 75px;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
 }
