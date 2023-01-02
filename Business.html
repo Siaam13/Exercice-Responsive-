@@ -7,10 +7,92 @@
     <title>Business Company</title>
     <link rel="stylesheet" href="bas.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <nav>
+        <a href="">Business Co</a>
+         <div class="link">
+            <a href="">Page 1</a>
+            <a href="">Page 2</a>
+            <a href="">Page 3</a>
+            <a href="">Page 4</a>
+        </div>
+        <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <section>
+        <div class="first">
+            <div class="titre-content">
+            <h1 class="titre-first">We help your</br>brand to be </br> recognizable</h1>
+             <p class="sous-titre-first">Quis autem vel eum iure reprehenderitqui in ea</br>voluptate velit esse quam nihil molestiae consequatur</p>
+             <button class="learn-btn">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="second">
+            <div class="box1">
+                <div class="box1-ctn">
+                    <h3 class="titre-box1">Quality Product</h3>
+                        <p class="sous-titre-box1">Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusm od tempor</br> incididunt ut labore et dolore magna aliqua</br> ut enim adminim.</p>
+                </div>
+            </div>
+                
+            <div class="box2">
+                <div class="box2-ctn">
+                    <h3 class="titre-box2">Growth Strategy</h3>
+                        <p class="sous-titre-box2">Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusm od tempor</br> incididunt ut labore et dolore magna aliqua</br> ut enim adminim.</p>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="box3-ctn">
+                    <h3 class="titre-box3">Competitive Price</h3>
+                        <p class="sous-titre-box3">Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusm od tempor</br> incididunt ut labore et dolore magna aliqua</br> ut enim adminim.</p>
+                </div>
+            </div>
+        </div>
 
+    </section>
+
+
+    <section>
+        <div class="third">
+            <div class="ancre">
+                <img src="./img/ancre.png" class="img-ancre">
+            </div>
+            <h2 class="titre-third">About Compagny</h2>
+            <p class="sous-titre-third">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex.</br> Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et</br>ultricies sapien. Quisque fringilla sit amet dolor commodo
+                efficitur. Aliquam et sem odio. In</br>ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
+            <button class="our-work-btn">OUR WORK</button>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="for">
+            <div class="img-2">
+            </div>
+            <div class="for-ctn">
+                <h2 class="titre-for">Doing The Right Thing, At The Right Time</h2>
+                <p class="sous-titre1-for">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</br>
+                </br>
+                <!-- </br>    -->
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="learn2-btn">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
     <section>
         <h1 class="Service">Our Services</h1>
         <p class="Pepe">Consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
@@ -194,11 +276,20 @@
     <footer>
         <p class="footext">Sample footer text</p>
     </footer>
-
-   
     
 
+    
 
+    <script>
+        //on recupère Menu
+        let menu = document.querySelector(".menu");
+        let link = document.querySelector(".link");
+
+        function openclosemenu() {
+            link.classList.toggle("open");
+        }
+        menu.addEventListener("click",openclosemenu);
+    </script>
 </body>
 
 </html>
